@@ -24,6 +24,6 @@ def calculate_salary(total_compensation: int) -> float:
     """
     result = total_compensation * 0.87
 
-    # пиши свой код здесь
+    # пиши свой код здесь т
 
     return result
