@@ -43,7 +43,8 @@ def is_phone_correct(phone_number: str) -> bool:
     :return: буленовское значение - bool: True - если номер корректны,
                                           False - если номер некорректный
     """
-    if (phone_number[0] == '+' and phone_number[1] == '7' and phone_number[2:].isdigit() and len(phone_number) == 12):
+    if (phone_number[0] == '+' and phone_number[1] == '7' and phone_number[2:].isdigit() == True and
+            len(phone_number) == 12):
         result = True
     else:
         result = False
